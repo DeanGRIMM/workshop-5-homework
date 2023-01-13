@@ -25,7 +25,7 @@ void EvenNum(int [] array)
     Console.WriteLine($"Колво чётных числел в массиве : {count}");
 }
 
-Console.WriteLine("Введите число");
+Console.WriteLine("Введите размер массива");
 int N = Convert.ToInt32(Console.ReadLine());
 int [] array = new int[N];
 FillArray(array);
